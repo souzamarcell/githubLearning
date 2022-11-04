@@ -4,6 +4,8 @@
   M - Arquivo modificado
   A - arquivo atualizado
 
+  q - sai
+
 *** Other Git for Windows downloads ***
 https://git-scm.com/download/win
 
@@ -35,15 +37,17 @@ https://git-scm.com/download/win
   git log -n 3 (3 ultimos logs)
 
 *** Estagios do arquivo
-  1) Working directory - modifico arquivo
+  1) Working directory - modificado arquivo
   2) Stage Area - add (area de commit)
   3) Repository - commit
 
 *** Status
   git status
 
-  git commit -m "created index.html base"
+  HEAD - ultimo commit
+  linha do tempo (master/branch)
+  linha do tempo (main/branch) Dias atuais 04/Nov/2022
 
-
-
+*** Diferenca (o que foi modificado)
+  git diff
 
