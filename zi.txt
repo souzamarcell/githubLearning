@@ -51,3 +51,6 @@ https://git-scm.com/download/win
 *** Diferenca (o que foi modificado)
   git diff
 
+*** Restore
+  git restore . (para todos)
+  git restore index.html (para um arquivo)
