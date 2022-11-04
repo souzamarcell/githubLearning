@@ -1,30 +1,49 @@
 
-Status
-U - arquivo novo
-A - arquivo atualizado
-
+*** Status
+  U - arquivo novo
+  M - Arquivo modificado
+  A - arquivo atualizado
 
 *** Other Git for Windows downloads ***
 https://git-scm.com/download/win
 
 *** Criar Projeto novo ***
-git init
+  git init
 
-Initialized empty Git repository in 
-C:/sys/Cursos2022/RocketSeat_Explorer_Full/app/15.Git_Github/projeto/.git/
-(master)
+  Initialized empty Git repository in 
+  C:/sys/Cursos2022/RocketSeat_Explorer_Full/app/15.Git_Github/projeto/.git/
+  (master)
 
-Configuracao inicial
-git config --global user.name "marcell"
-git config --global user.email "marcell.ramos@gmail.com"
+*** Configuracao inicial
+  git config --global user.name "marcell"
+  git config --global user.email "marcell.ramos@gmail.com"
 
-Confirmar as configuração adicionadas.
-git config --list
+  Confirmar as configuração adicionadas.
+  git config --list
+
+*** Comiti - pequenas mudanda no codigo.
+  . todos os arquivos que sofreram mudança ou
+  index.html - arquivo que sofreu mudança
+  m - mensgen (colar mensagens curtas)
+
+  git add .
+  git commit -m "created index.html"
+
+*** Logs
+  git log
+  git log --oneline (forma resumida)
+  git log -n 3 (3 ultimos logs)
+
+*** Estagios do arquivo
+  1) Working directory - modifico arquivo
+  2) Stage Area - add (area de commit)
+  3) Repository - commit
+
+*** Status
+  git status
 
 
-Comiti - pequenas mudanda no codigo.
-. todos os arquivos que sofreram mudança ou
-index.html - arquivo que sofreu mudança
-git add .
+
+
 
 
