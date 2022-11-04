@@ -1,0 +1,30 @@
+
+Status
+U - arquivo novo
+A - arquivo atualizado
+
+
+*** Other Git for Windows downloads ***
+https://git-scm.com/download/win
+
+*** Criar Projeto novo ***
+git init
+
+Initialized empty Git repository in 
+C:/sys/Cursos2022/RocketSeat_Explorer_Full/app/15.Git_Github/projeto/.git/
+(master)
+
+Configuracao inicial
+git config --global user.name "marcell"
+git config --global user.email "marcell.ramos@gmail.com"
+
+Confirmar as configuração adicionadas.
+git config --list
+
+
+Comiti - pequenas mudanda no codigo.
+. todos os arquivos que sofreram mudança ou
+index.html - arquivo que sofreu mudança
+git add .
+
+
