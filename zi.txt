@@ -42,7 +42,7 @@ https://git-scm.com/download/win
 *** Status
   git status
 
-
+  git commit -m "created index.html base"
 
 
 
