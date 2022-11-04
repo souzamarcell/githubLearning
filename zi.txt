@@ -51,6 +51,19 @@ https://git-scm.com/download/win
 *** Diferenca (o que foi modificado)
   git diff
 
-*** Restoreq
+*** Restore
   git restore . (para todos)
   git restore index.html (para um arquivo)
+
+*** Remover da 2) Stage Area - add (area de commit)
+  git restore --staged arquivo.xxx
+  git restore --staged . (para todos)
+
+*** Modificar o nome 3) Repository - commit
+  git commit --amend -m "created index.html e zi.txt v2.4"
+
+*** Voltar o ultimo 3) Repository - commit
+  git reset --soft HEAD~1
+
+
+
