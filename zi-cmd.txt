@@ -6,6 +6,11 @@
 
   q - sai
 
+
+*** Seguencia mais utilizada ***
+
+ git status
+
 *** Other Git for Windows downloads ***
 https://git-scm.com/download/win
 
@@ -66,4 +71,17 @@ https://git-scm.com/download/win
   git reset --soft HEAD~1
 
 
+…or create a new repository on the command line
+echo "# githubLearning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:souzamarcell/githubLearning.git
+git push -u origin main
 
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:souzamarcell/githubLearning.git
+git branch -M main
+git push -u origin main
