@@ -6,10 +6,17 @@
 
   q - sai
 
-
 *** Seguencia mais utilizada ***
 
- git status
+  git add .
+  git commit -m " created index.html e zi.txt v2.5"
+
+  git log
+  git log --oneline (forma resumida)
+  git log -n 3 (3 ultimos logs)
+
+  git status
+
 
 *** Other Git for Windows downloads ***
 https://git-scm.com/download/win
